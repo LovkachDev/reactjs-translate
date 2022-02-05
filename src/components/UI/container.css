@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+.ccontainer
+{
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    margin:auto;
+    top:50px;
+    max-width:1200px;
+    padding-bottom: 180px;
+    border-radius: 10px;
+}
+.tittle
+{
+    position: relative;
+    margin: auto;
+    text-align: center;
+    top:30px;
+    width:100%;
+    color:#21252a;
+    font-size:20px;
+}
+.col
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:100px;
+    position: relative;
+    margin:auto;
+    top:70px;
+    width:80%;
+    height: 200px;
+}
+.input
+{
+    width:100%;
+    height:100%;
+    padding:20px;
+    font-size: 17px;
+    font-family: Montserrat;
+    color:#21252a;
+    background: unset;
+    border-radius: 5px;
+    border:2px solid #21252a;
+    resize: none;
+}
+.button
+{
+    position: relative;
+    width:max-content;
+    padding: 13px 50px;
+    align-self: center;
+    background-color:#21252a;
+    border-radius: 7px;
+    color: #272727;
+    font-size: 15px;
+    cursor: pointer;
+    color:#fff;
+}
+.button__area
+{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top:105px;
+    width:100%;
+}
+textarea::-moz-placeholder { color: #21252a; }
+textarea::-webkit-input-placeholder { color: #21252a; }
+@media (max-width:1280px)
+{
+    .container
+    {
+        max-width: 960px;
+    }
+    .header__container
+    {
+        min-width: 960px;
+    }
+}
+@media (max-width:1050px)
+{
+    .container
+    {
+        max-width: 800px;
+    }
+    .col
+    {
+        width:90%;
+        grid-gap: 30px;
+    }
+}
+@media (max-width:850px)
+{
+    .ccontainer
+    {
+        max-width: 650px;
+        height: 700px;
+    }
+    .col
+    {
+        grid-template-columns: repeat(1,1fr);
+        width:90%;
+        grid-gap: 30px;
+        height: max-content;
+    }
+    .input
+    {
+        height: 70px;
+    }
+    #output
+    {
+        height: 160px;
+    }
+    .tittle
+    {
+        max-width: 90%;
+    }
+}
+@media (max-width:700px)
+{
+    .ccontainer
+    {
+        max-width: 550px;
+    }
+}
+@media (max-width:580px)
+{
+    .ccontainer
+    {
+        max-width: 450px;
+    }
+    .input
+    {
+        font-size: 14px;
+        height: 70px;
+    }
+    .button__area
+    {
+        top:100px;
+    }
+}
+@media (max-width:480px)
+{
+    .ccontainer
+    {
+        top:30px;
+        max-width: 370px;
+    }
+    .tittle
+    {
+        font-size: 17px;
+    }
+    .input
+    {
+        padding: 15px 10px;
+        font-size: 13px;
+        height: 55px;
+    }
+}
+@media (max-width:400px)
+{
+    .ccontainer
+    {
+        max-width: 330px;
+        padding-bottom: 160px;
+    }
+    .tittle
+    {
+        font-size: 16px;
+    }
+    .input
+    {
+        padding: 15px 10px;
+        font-size: 11px;
+        height: 52px;
+    }
+    .button
+    {
+        padding: 12px 40px;
+    }
+}
+
