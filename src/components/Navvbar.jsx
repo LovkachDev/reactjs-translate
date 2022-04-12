@@ -7,7 +7,7 @@ export default function Navvbar(props) {
             <Container>
               <NavbarBrand href = '/' fixed = "top" className = "btn">{props.title}</NavbarBrand>
               <Nav className="me-auto my-1">
-                <Nav.Link href = "https://vk.com/lvchdv" className = "item" >Автор проекта: Федос</Nav.Link>
+                <Nav.Link href = "https://vk.com/lvchdv" className = "item" >Автор проекта: Федор Михалев</Nav.Link>
               </Nav>
               <Nav>
                 <Nav.Link href = "https://www.macmillaneducationeverywhere.com/" className = "forMac item">Для издательства Macmillan StudentsBook</Nav.Link>
@@ -23,7 +23,7 @@ export default function Navvbar(props) {
                 </Offcanvas.Header>
                 <Offcanvas.Body>
                   <Nav className="justify-content-end flex-grow-1 pe-3">
-                    <Nav.Link className = "nav__text">Автор проекта: Федос</Nav.Link>
+                    <Nav.Link className = "nav__text">Автор проекта: Федор Михалев</Nav.Link>
                     <Nav.Link className = "nav__text">Для издательства Macmillan StudentsBook</Nav.Link>
                   </Nav>
                 </Offcanvas.Body>
